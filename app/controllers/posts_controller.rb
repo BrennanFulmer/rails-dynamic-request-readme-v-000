@@ -1,6 +1,8 @@
 
 class PostsController < ApplicationController
 
-  get 'posts/:id', to: 'posts#show'
+  def show
+    get 'posts/:id', to: 'posts#show'
+  end
   
 end
