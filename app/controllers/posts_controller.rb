@@ -1,3 +1,3 @@
 
-class PostsController < 
+class PostsController < ApplicationController
 end
